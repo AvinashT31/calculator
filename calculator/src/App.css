@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  /* border: 1px solid black; */
+  height: 650px;
+  padding-top: 1px;
+  background-color: rgb(241,243,244);
+}
+
+#calculator{
+  border: 1px solid black;
+  width: 18%;
+  margin: auto;
+  height: 300px;
+  margin-top: 175px;
+  border-radius: 15px;
+  background-color: rgb(88,88,88);
+  border: none;
+  outline: none;
+}
+
+#calculator > div:nth-child(2){
+  margin-top: 20px;
+}
+
+#calculator input{
+  width: 90%;
+  margin: auto;
+  border-radius: 15px;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(229,229,228);
+}
+
+#calculator > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+}
+
+#calculator > div >  button{
+  width: 20%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(229,229,228);
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 800;
+  border: none;
+  outline: none;
+}
